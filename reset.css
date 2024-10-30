@@ -1,0 +1,47 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo */
+body {
+    line-height: 1.6;
+    background-color: #FFC0CB; /* Fundo rosa */
+    color: #000; /* Texto preto */
+    font-family: Arial, sans-serif;
+}
+
+/* Elementos de estrutura HTML */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* Listas */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Citações */
+blockquote,
+q {
+    quotes: none;
+}
+
+/* Tabelas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
