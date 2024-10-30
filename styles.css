@@ -1,0 +1,45 @@
+body {
+    background-color: #FFC0CB; /* Fundo rosa */
+    color: #000; /* Texto preto */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #FFFF00; /* Título amarelo */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book {
+    background-color: #FFF; /* Fundo branco para os livros */
+    border: 2px solid #FFFF00; /* Bordas amarelas */
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #FFFF00; /* Botões amarelos */
+    color: #000; /* Texto dos botões em preto */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #FFC0CB; /* Mudança de cor ao passar o mouse */
+}
